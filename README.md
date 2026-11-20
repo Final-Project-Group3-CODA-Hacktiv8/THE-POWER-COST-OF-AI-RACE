@@ -283,6 +283,16 @@ Tidak ideal: Australia, China, Malaysia, Indonesia (705).
 ---
 ## Conclusion
 
+Tujuan project ini adalah mengarahkan pembangunan AI data center berikutnya ke lokasi yang lebih bersih dan lebih efisien. Hasil analisis menunjukkan kapasitas AI data center tumbuh sangat cepat, dari 48 MW pada 2021 menjadi 15.122 MW per November 2026 (Q1). Karena data center ini memakai listrik dari grid, konsumsi listrik dan emisinya ikut naik, sekitar 119 TWh dan 52,2 juta ton CO2e per tahun pada utilisasi 70% (Q2).
+
+Efisiensi bangunan ternyata sudah mirip di hampir semua site, dengan median PUE 1,30 (Q3). Artinya, memperbaiki sistem pendingin saja tidak cukup untuk menekan emisi. Pembeda terbesarnya adalah lokasi. Beban ke grid bersifat lokal: secara nasional AI data center hanya memakai 2,2% listrik Amerika Serikat, tetapi di Tennessee mencapai 14,9% (Q4). Site dengan ukuran yang sama juga bisa menghasilkan emisi hingga 25 kali lebih besar di grid berbasis batu bara dibanding grid yang bersih (Q5).
+
+Jadi, AI data center tidak bermanfaat atau berbahaya dengan sendirinya. Dampaknya bergantung pada di mana dan bagaimana ia dibangun. Memilih grid yang bersih dan belum terbebani, ditambah menargetkan PUE di level terbaik (1,20), adalah cara paling langsung untuk mencapai target pengurangan emisi per MW pada data center baru sekitar 20%.
+
+**Keterbatasan:** sebagian besar site dalam data berada di Amerika Serikat (77 dari 96). Kapasitas dan PUE adalah estimasi Epoch AI, utilisasi diasumsikan 70%, dan emisi dihitung dari rata-rata intensitas grid, bukan dari kontrak energi bersih masing-masing perusahaan.
+
+---
+
 ## Prerequisites & Setup
 
 * Python 3.10+
