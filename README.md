@@ -21,7 +21,7 @@ Proyek kolaboratif untuk menganalisa korelasi antara pertumbuhan pusat data AI g
 ---
 ## Tableau
 
-
+[Link Dashboard](https://public.tableau.com/app/profile/aldi.zulkarnaen/viz/ThePowerCostoftheAIRace/DASHBOARD)
 
 ---
 
@@ -230,18 +230,53 @@ Contoh query untuk melihat tren pertumbuhan kapasitas listrik (MW) dan kapasitas
 ---
 
 ## Key Performance Indicators
+**1. Total IT Power (MW)** · KQ1\
+**Explanation:** Mengukur total daya listrik yang dipakai langsung oleh server dan chip di seluruh AI data center, dalam megawatt.\
+**Purpose:** Mengetahui seberapa besar kapasitas AI data center saat ini dan seberapa cepat kapasitas itu bertambah dari tahun ke tahun.
 
+**2. Owner Share (%)** · KQ1\
+**Explanation:** Mengukur persentase IT power milik tiap perusahaan dari total IT power seluruh data center.\
+**Purpose:** Mengidentifikasi perusahaan yang paling banyak berkontribusi dan seberapa terkonsentrasi kepemilikan kapasitas AI data center.
 
+**3. Annual Electricity Consumption (TWh/year)** · KQ2\
+**Explanation:** Mengukur perkiraan listrik yang dipakai AI data center dalam setahun, dihitung dari total facility power × 8.760 jam × utilization 70%.\
+**Purpose:** Mengetahui besarnya kebutuhan listrik AI data center dan membandingkannya dengan produksi listrik suatu wilayah.
 
+**4. Annual Emissions (MtCO2e/year)** · KQ2\
+**Explanation:** Mengukur perkiraan emisi karbon per tahun, dihitung dari konsumsi listrik tahunan × grid carbon intensity tahun 2025 di lokasi data center.\
+**Purpose:** Mengetahui dampak lingkungan dari pertumbuhan AI data center dan menjadi dasar target penurunan emisi.
+
+**5. Power Usage Effectiveness (PUE)** · KQ3\
+**Explanation:** Mengukur efisiensi energi gedung, dihitung dari total facility power dibagi IT power. Nilai yang makin dekat ke 1 berarti makin efisien.\
+**Purpose:** Mengetahui seberapa banyak listrik yang terpakai untuk pendingin dan kebutuhan non-komputer, serta menentukan target efisiensi yang realistis.
+
+**6. Compute per MW (H100e/MW)** · KQ3\
+**Explanation:** Mengukur kapasitas komputasi yang dihasilkan untuk setiap megawatt IT power, dinyatakan setara jumlah chip NVIDIA H100.\
+**Purpose:** Membandingkan seberapa produktif tiap data center dalam mengubah listrik menjadi kapasitas komputasi.
+
+**7. Operating Cost per MW (USD/MW/year)** · KQ3\
+**Explanation:** Mengukur biaya operasional tahunan data center untuk setiap megawatt IT power.\
+**Purpose:** Memberi gambaran biaya operasional sebagai bahan pertimbangan investor dan manajemen data center.
+
+**8. Emissions per MW (tCO2e/MW/year)** · KQ3 & KQ5\
+**Explanation:** Mengukur emisi tahunan untuk setiap megawatt total facility power.\
+**Purpose:** Membandingkan emisi antar data center secara adil tanpa terpengaruh ukuran, sekaligus menunjukkan pengaruh lokasi terhadap emisi.
+
+**9. Share of Local Generation (%)** · KQ4\
+**Explanation:** Mengukur persentase listrik tahunan AI data center terhadap total produksi listrik (Total generation) di negara atau negara bagian tempatnya berada.\
+**Purpose:** Mengidentifikasi wilayah yang jaringan listriknya paling terbebani oleh AI data center, karena rata-rata nasional bisa menutupi tekanan di tingkat lokal.
+
+**10. Grid Carbon Intensity (gCO2e/kWh)** · KQ5\
+**Explanation:** Mengukur banyaknya emisi karbon untuk menghasilkan 1 kWh listrik di suatu negara atau negara bagian, berdasarkan data Ember tahun 2025.\
+**Purpose:** Menentukan lokasi terbaik dan terburuk untuk membangun AI data center berdasarkan seberapa bersih sumber listriknya.
 
 ---
 
 ## Key Questions & Findings
-KQ1 : Kapasitas IT naik dari 48 MW (akhir 2021) menjadi 15.122 MW (November 2026), dan kapasitas komputasi dari sekitar 0,01 juta menjadi 15,77 juta H100e.
-Tiga perusahaan terbesar adalah Google (3.179 MW), Meta (2.335 MW), dan Amazon (1.870 MW), yang bersama-sama menguasai 48,8% kapasitas. Ada 1.869 MW yang pemiliknya tidak diketahui (Unknown), jadi porsi perusahaan besar sebenarnya bisa lebih tinggi.
-KQ2 : Konsumsi listrik naik dari 0,3 TWh (2021) menjadi 119,4 TWh (2026), dan emisinya dari 0,1 menjadi 52,2 MtCO2e per tahun. Lonjakan terbesar terjadi di dua tahun terakhir: emisi 2026 lebih dari dua kali lipat emisi 2025 (22,8 Mt). Catatan: dataset hanya melacak data center yang sekarang sudah besar, jadi angka tahun-tahun awal cenderung lebih kecil dari kondisi sebenarnya.
-KQ3 : Berdasarkn PUE hampir semua data center ada di 1,2–1,4 (median 1,30), jadi efisiensi gedungnya mirip. Kapasitas komputasi per MW adalah 1.137 H100e, dengan biaya operasional sekitar 0,69 juta USD per MW per tahun dan emisi 2.326 tCO2e per MW. Yang paling berbeda justru emisinya: dari sekitar 170 tCO2e per MW di Islandia sampai 4.300 tCO2e per MW di Batam. Artinya, emisi lebih ditentukan oleh sumber listrik di lokasi daripada efisiensi gedung.
-KQ4 : Tennessee 14,9%, Nebraska 13,0%, Indiana 8,3%, sedangkan secara nasional AS hanya 2,2%. Artinya, angka nasional menyembunyikan beban di tingkat lokal: di beberapa negara bagian, data center AI sudah memakai sekitar sepertujuh listrik yang dibangkitkan. Di level negara, porsi tertinggi ada di Malaysia (5,0%).
+KQ1 : Kapasitas IT naik dari 48 MW (akhir 2021) menjadi 15.122 MW (November 2026), dan kapasitas komputasi dari sekitar 0,01 juta menjadi 15,77 juta H100e.Tiga perusahaan terbesar adalah Google (3.179 MW), Meta (2.335 MW), dan Amazon (1.870 MW), yang bersama-sama menguasai 48,8% kapasitas. Ada 1.869 MW yang pemiliknya tidak diketahui (Unknown), jadi porsi perusahaan besar sebenarnya bisa lebih tinggi.\
+KQ2 : Konsumsi listrik naik dari 0,3 TWh (2021) menjadi 119,4 TWh (2026), dan emisinya dari 0,1 menjadi 52,2 MtCO2e per tahun. Lonjakan terbesar terjadi di dua tahun terakhir: emisi 2026 lebih dari dua kali lipat emisi 2025 (22,8 Mt). Catatan: dataset hanya melacak data center yang sekarang sudah besar, jadi angka tahun-tahun awal cenderung lebih kecil dari kondisi sebenarnya.\
+KQ3 : Berdasarkn PUE hampir semua data center ada di 1,2–1,4 (median 1,30), jadi efisiensi gedungnya mirip. Kapasitas komputasi per MW adalah 1.137 H100e, dengan biaya operasional sekitar 0,69 juta USD per MW per tahun dan emisi 2.326 tCO2e per MW. Yang paling berbeda justru emisinya: dari sekitar 170 tCO2e per MW di Islandia sampai 4.300 tCO2e per MW di Batam. Artinya, emisi lebih ditentukan oleh sumber listrik di lokasi daripada efisiensi gedung.\
+KQ4 : Tennessee 14,9%, Nebraska 13,0%, Indiana 8,3%, sedangkan secara nasional AS hanya 2,2%. Artinya, angka nasional menyembunyikan beban di tingkat lokal: di beberapa negara bagian, data center AI sudah memakai sekitar sepertujuh listrik yang dibangkitkan. Di level negara, porsi tertinggi ada di Malaysia (5,0%).\
 KQ5 : Ideal: Norwegia, Islandia (28), Finlandia (59), Portugal (128)
 Tidak ideal: Australia, China, Malaysia, Indonesia (705).
 
@@ -266,8 +301,6 @@ ai-energy-footprint-project/
 ├── notebooks/             # Jupyter Notebooks untuk EDA & eksperimen data
 ├── sql/                   # Skrip DDL untuk pembuatan skema database
 ├── src/                   # Kode sumber pipeline ETL (Python scripts)
-├── .env.example           # Template konfigurasi environment
-├── requirements.txt       # Daftar dependensi Python
 └── README.md              # Dokumentasi utama proyek
 ```
 
