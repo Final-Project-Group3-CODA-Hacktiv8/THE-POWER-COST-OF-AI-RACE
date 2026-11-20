@@ -1,0 +1,97 @@
+name,country,state_code,state_source,address,owner_name,owner_confidence,users,investor,current_power_mw,current_h100e
+Amazon Ridgeland,United States,MS,address,"1626 County Line Road Ridgeland, Mississippi",Amazon,confident,Anthropic #speculative,,228.0,171298.6356745831
+Colossus 2,United States,TN,address,"5420 Tulane Rd, Memphis, TN 38109",SpaceXAI,confident,"Anthropic #confident, Cursor #confident, SpaceXAI #confident",,946.0,1111672.5618999496
+Coreweave Helios,United States,TX,address,"984 County Road 112, Afton, TX 79220",CoreWeave,confident,OpenAI #speculative,,132.0,159551.768236855
+Goodnight,United States,TX,address,"10001 Lima Rd, Claude, TX 79019",Google,speculative,Google DeepMind #speculative,,0.0,0.0
+Meta Los Lunas,United States,NM,address,"4250 Messenger Lp, Los Lunas, NM 87031",Meta,confident,Meta #confident,,118.0,133906.01313794847
+Meta Sarpy,United States,NE,address,"14436-14998 Fairview Rd, Springfield, NE 68059, USA",Meta,confident,Meta #confident,,80.0,91965.63921172309
+Microsoft Project Osmium,United States,IA,address,"5855 SW Kerry St, Cumming, IA 50061",Microsoft,confident,OpenAI #speculative,,190.0,155634.15866599293
+OpenAI Stargate Lordstown,United States,OH,address,"2300 Hallock Young Rd, Warren, OH 44481",Softbank,confident,OpenAI #confident,,0.0,0.0
+OpenAI Stargate Wisconsin,United States,WI,manual,,Oracle,confident,OpenAI #confident,,0.0,0.0
+Vantage TX1,United States,TX,address,"14720 Omicron Dr, San Antonio, TX 78245",Unknown,unknown,,,32.0,38706.417382516425
+AWS New Albany,United States,OH,manual,13360 Miller Rd NW,Amazon,confident,,,213.0,201111.67256189996
+Colossus 1,United States,TN,address,"3231 Riverport Rd, Memphis, TN 38109",SpaceXAI,confident,Anthropic #confident,,340.0,275795.85649317835
+Google Arcola,United States,VA,address,"42575 Arcola Blvd, Sterling, VA 20166",Google,confident,,,77.0,108135.42193026781
+Google Cedar Rapids,United States,IA,address,"5800 EDGEWOOD RD SW CEDAR RAPIDS, IA 52404",Google,confident,Google DeepMind #speculative,,0.0,0.0
+Google Fort Wayne,United States,IN,address,"6015 Adams Center Road, Fort Wayne, IN 46806",Google,confident,Google DeepMind #speculative,Google,0.0,0.0
+Google Red Oak,United States,TX,address,"330 Austin Blvd, Red Oak, TX 75154",Google,confident,,,77.0,108135.42193026781
+Meta Huntsville,United States,AL,address,"5400 Prosperity Dr NW, Toney, AL",Meta,confident,Meta #confident,,146.0,166760.9903991915
+Meta Jeffersonville,United States,IN,address,"500 8th St, Jeffersonville, IN 47130, USA",Meta,confident,Meta #confident,,178.0,203132.89540171804
+Microsoft Fairwater Atlanta,United States,GA,address,"1435 Hwy 54 W, Fayetteville, GA 30214",Microsoft,confident,"OpenAI #likely, Microsoft #likely",,636.0,768768.7220818596
+OpenAI Stargate New Mexico,United States,NM,manual,,Oracle,confident,OpenAI #confident,,0.0,0.0
+STACK Infrastructure NVA02,United States,VA,address,"9590 Hornbaker Rd, Manassas, VA 20109",Unknown,unknown,,,85.0,61141.99090449722
+Alibaba Zhangbei,China,,not_applicable,"Alibaba Zhangbei Yun Calculation Data Center, Zhangbei County, Zhangjiakou, Hebei, China, 076471",Alibaba,confident,Alibaba #likely,,169.0,31884.79029813037
+Bridge Data Centres MY06,Malaysia,,not_applicable,"Bridge Data Centres, Sedenak Tech Park, Johor, Malaysia",ByteDance,likely,ByteDance #likely,,243.0,221051.54118241536
+Crusoe Abilene Expansion,United States,TX,address,"5502 Spinks Rd, Abilene, TX 79601",Microsoft,confident,Microsoft #likely,NVIDIA,0.0,0.0
+Google Lancaster,United States,OH,address,"105 Whiley Rd, Lancaster, OH 43130",Google,confident,,,137.0,130368.8731682668
+Google Omaha,United States,NE,address,"11110 State St, Omaha, NE 68142",Google,confident,Google DeepMind #speculative,,237.0,198585.14401212733
+Google Waltham Cross,United Kingdom,,not_applicable,"Land at Maxwell's Farm West, Great Cambridge Road, Cheshunt, EN8 8XH",Google,confident,Google DeepMind #speculative,,88.0,123799.89893885801
+Meta Cheyenne,United States,WY,address,"Cheyenne, WY 82007, USA",Meta,confident,Meta #confident,,152.0,172814.5528044467
+Meta Gallatin,United States,TN,address,"1 Meta Lp, Gallatin, TN 37066",Meta,confident,Meta #confident,,87.0,99545.22486104093
+QTS Eagle Mountain,United States,UT,address,"652 E Hyperscale Way, Eagle Mountain, UT 84013",Meta,speculative,Meta #speculative,,0.0,0.0
+QTS Richmond 3,United States,VA,address,"3525–3543 Portugee Rd, Sandston, VA 23150",Unknown,unknown,,,144.0,174835.77564426477
+YTL Johor,Malaysia,,not_applicable,"YTL Green Data Centers, Kulai, Johor, Malaysia",Unknown,unknown,,,113.0,153532.0869125821
+AWS Berwick,United States,PA,address,"1125 Electron Ave, Berwick, PA 18603",Amazon,confident,Anthropic #speculative,,108.0,81354.21930267812
+CoreWeave Chester VA,United States,VA,address,"1401 Meadowville Technology Parkway, Chester, VA",CoreWeave,confident,OpenAI #speculative,,82.0,88428.49924204143
+CoreWeave Ellendale ND,United States,ND,address,"9685 87th Ave SE, Ellendale, ND 58436",CoreWeave,confident,OpenAI #speculative,,68.0,93481.55634158666
+CoreWeave Marble NC,United States,NC,address,"155 Palmer Ln, Marble, NC 28905",CoreWeave,confident,OpenAI #speculative,,65.0,78827.6907529055
+Google Kansas City East,United States,MO,manual,,Google,confident,,,105.0,202627.5896917635
+Google Storey County,United States,NV,manual,,Google,confident,Google DeepMind #speculative,,161.0,133906.01313794847
+Meta Hyperion,United States,LA,address,"Holly Ridge, LA 71269",Meta,confident,Meta #confident,,0.0,0.0
+Meta Kuna,United States,ID,address,"601 Kuna Mora Rd, Kuna ID 83634",Meta,confident,Meta #confident,,152.0,173247.67205659422
+Microsoft Goodyear,United States,AZ,address,"14250 W Broadway Rd, Goodyear, AZ 85338",Microsoft,confident,"OpenAI #likely, Microsoft #confident",,202.0,205154.11824153614
+Nebius Mantsala,Finland,,not_applicable,,Nebius,confident,Microsoft #speculative,,75.0,48527.92066700354
+CoreWeave Lancaster Greenfield site,United States,PA,address,"216 Greenfield Rd, Lancaster, PA",CoreWeave,confident,OpenAI #speculative,Blue Owl Capital,0.0,0.0
+EcoDataCenter 2,Sweden,,not_applicable,"Kvarnsvedsvägen 420, 784 66 Borlänge, Sweden",Mistral AI,confident,Mistral AI #confident,,0.0,0.0
+Google Lincoln,United States,NE,address,"5475 Cloud Ct, Lincoln, NE 68514",Google,confident,,,141.0,197574.53259221828
+Microsoft Narvik Norway,Norway,,not_applicable,,Nscale,likely,Microsoft #likely,Aker ASA,0.0,0.0
+Microsoft SAT40,United States,TX,address,"15000 Lambda Drive, San Antonio, TX 78245",Microsoft,confident,,,75.0,64679.13087417888
+Nscale Keflavik,Iceland,,not_applicable,"Valhallarbraut 868, 262 Reykjanesbær, Iceland",Nscale,confident,,,5.11,5821.121778676099
+OpenAI Stargate Michigan,United States,MI,manual,,Oracle,confident,OpenAI #confident,,0.0,0.0
+VNET Bayin Ulanqab,China,,not_applicable,"Bayin, Ulanqab, China",ByteDance,speculative,ByteDance #speculative,,221.0,122789.28751894896
+xAI QTS Atlanta,United States,GA,address,"1025 Jefferson Street NW, Atlanta, GA 30318",SpaceXAI,confident,SpaceXAI #confident,,17.32971,11470.43961596766
+CoreWeave Dalton 1 & 2,United States,GA,address,"2205 Industrial South Rd, Dalton, GA, 30721",CoreWeave,confident,OpenAI #speculative,,28.0,32238.504295098533
+CoreWeave Muskogee OK,United States,OK,address,"1525 W 43rd St S, Muskogee, OK 74401, USA",CoreWeave,confident,OpenAI #speculative,,0.0,0.0
+CoreWeave Norway,Norway,,not_applicable,"Stølevegen 39, 4715 Øvrebø, Norway",CoreWeave,confident,OpenAI #speculative,,42.0,50773.11773623042
+Envision Galaxy Ulanqab,China,,not_applicable,,Unknown,unknown,,,118.0,47931.27842344619
+Google Midlothian,United States,TX,address,"3250 Railport Parkway, Midlothian, TX 76065",Google,confident,,,103.0,143580.85118746842
+Google New Albany,United States,OH,address,"1101 Beech Rd SW, New Albany, OH 43054",Google,confident,Google DeepMind #speculative,,333.0,323900.9600808489
+Meta Montgomery,United States,AL,address,"Co Rd 42, Montgomery, AL 36105, USA",Meta,confident,Meta #confident,,153.0,174517.43304699342
+Meta Temple,United States,TX,address,"2310 Eberhardt Rd, Temple, TX 76504",Meta,confident,Meta #confident,,178.0,202472.98777125112
+Microsoft Fairwater Wisconsin,United States,WI,address,"4800 90th St, Mount Pleasant, WI 53403",Microsoft,confident,"OpenAI #likely, Microsoft #likely",,369.0,445679.63617988885
+Microsoft-Nebius New Jersey,United States,NJ,address,"3963 S Lincoln Ave, Vineland, New Jersey",Nebius,confident,Microsoft #likely,,50.0,56846.89236988378
+OpenAI Stargate Abilene,United States,TX,address,"5502 Spinks Rd, Abilene, TX 79601",Oracle,confident,OpenAI #confident,"Softbank,OpenAI,Oracle",824.0,1018696.3112683173
+OpenAI Stargate Milam,United States,TX,manual,,Softbank,confident,OpenAI #confident,,0.0,0.0
+OpenAI Stargate Shackelford,United States,TX,address,"175 Private Road 1604, Abilene, TX 79601, Shackelford County",Oracle,confident,OpenAI #confident,"Oracle,OpenAI",0.0,0.0
+QTS Cedar Rapids,United States,IA,address,"6200 76th Ave SW, Fairfax, IA 52228",Meta,speculative,Meta #speculative,,0.0,0.0
+QTS Richmond 1,United States,VA,address,"6000 Technology Blvd, Sandston, VA 23150",Unknown,unknown,,,238.0,242546.7407781708
+Amazon Madison Mega Site,United States,MS,address,"Amazon Data Services Inc, Madison Mega Site Nissan Parkway and Highway 22 Canton, Mississippi Madison County",Amazon,confident,Anthropic #speculative,,284.0,214348.14354550533
+Anthropic Barber Lake,United States,TX,manual,,Cipher Mining,confident,Anthropic #confident,,0.0,0.0
+Anthropic-Amazon New Carlisle,United States,IN,address,"55001 Larrison Blvd, New Carlisle, IN 46552",Amazon,confident,Anthropic #confident,,1037.0,818428.4992420415
+CoreWeave Denton TX,United States,TX,address,"8171 Jim Christal Rd, Denton, TX 76207",CoreWeave,confident,OpenAI #likely,,262.0,252652.85497726125
+DayOne Nusajaya,Malaysia,,not_applicable,,Unknown,unknown,,,473.0,583836.7862556847
+Google Bristow,United States,VA,address,"13001 Rollins Ford Road, Bristow, VA 20136",Google,unspecified,Google DeepMind,,238.0,209860.53562405254
+Google Columbus,United States,OH,address,"5076 S High St, Columbus, OH 43207",Google,confident,Google DeepMind #speculative,,303.0,331985.85144012125
+Google Council Bluffs (East),United States,IA,address,"10410 Bunge Ave, Council Bluffs, IA 51503",Google,confident,Google DeepMind #speculative,,237.0,255684.68923698837
+Google Mesa,United States,AZ,manual,,Google,confident,,,183.0,289540.17180394137
+Google Pryor (North),United States,OK,address,"4581 Webb St, Pryor, OK 74361",Google,confident,Google DeepMind #speculative,,368.0,636685.1945426983
+Huawei Horinger,China,,not_applicable,"Huawei, Horinger, China",Huawei,confident,,,169.9,81043.96159676605
+Meta Prometheus,United States,OH,address,"1 Community Cir, New Albany, OH 43054",Meta,confident,Meta #confident,,471.0,536343.0015159171
+Meta Rosemount,United States,MN,address,"1772-2396 145th St, Rosemount, MN 55068, USA",Meta,confident,Meta #confident,,178.0,215675.11520970188
+Meta-QTS Hillsboro 2,United States,OR,address,"4755 NE Huffman St, Hillsboro, OR 97124",Meta,likely,Meta #likely,,180.0,123839.0
+OpenAI Stargate UAE,United Arab Emirates,,not_applicable,"Nexus L&T Project Office, Al Bihouth, Al Dhafrah, Abu Dhabi, United Arab Emirates",G42,likely,OpenAI #confident,"Softbank,Oracle,NVIDIA,Cisco,G42",0.0,0.0
+Stream Phoenix,United States,AZ,manual,2950 S. Litchfield Road,Unknown,unknown,,,64.0,46134.4113188479
+Anthropic Lake Mariner,United States,NY,address,"7725 Lake Rd, Barker, NY 14012",AI XPV Platform,confident,Anthropic #likely,"Google,Blackstone",210.0,292829.71197574533
+Core42 Lake Mariner,United States,NY,address,"7725 Lake Rd, Barker, NY 14012",Core42,confident,G42 #likely,Google,58.0,71753.4108135422
+DayOne Kempas,Malaysia,,not_applicable,"HP79+MP, 81300 Johor Bahru, Johor, Malaysia",Unknown,unknown,,,421.691664,480638.7064173825
+Google Papillion,United States,NE,address,"14651-15249 Gold Coast Rd 68138 Papillion Nebraska, USA",Google,confident,Google DeepMind #speculative,Google,237.0,100555.83628094998
+Google The Dalles,United States,OR,address,"3500 River Rd, The Dalles, OR",Google,confident,,,154.0,175341.0813542193
+Huawei Wuhu,China,,not_applicable,"Wuhu, China",Huawei,confident,,,197.0,52830.72258716523
+Meta Aiken,United States,SC,address,"7601 State Hwy 105, Trenton, SC 29847, USA",Meta,confident,Meta #confident,,129.0,147043.96159676605
+Meta Bowling Green,United States,OH,address,"12356 Middleton Pike, Bowling Green, OH 43402",Meta,confident,Meta #confident,,0.0,0.0
+Meta Eagle Mountain,United States,UT,address,"1275 N Community Cir, Eagle Mountain, UT 84005",Meta,confident,Meta #confident,,133.0,151354.21930267813
+Microsoft SAT14,United States,TX,address,"3545 Wiseman Boulevard, San Antonio, TX 78251",Microsoft,confident,,,47.0,45174.33046993431
+Oracle Batam,Indonesia,,not_applicable,,Oracle,likely,Tencent #speculative,,72.0,84386.05356240526
+QTS Richmond 2,United States,VA,address,"6030–6070 Technology Blvd, Sandston, VA 23150",Unknown,unknown,,,180.0,182920.66700353715
+Southgate Melbourne,Australia,,not_applicable,,Firmus,confident,,,41.0,46488.12531581607
+Start Campus Sines Data Campus,Portugal,,not_applicable,"Start Campus - Sustainable Data Center Services, Sines, Portugal",Nscale,confident,Microsoft #confident,,33.0,31834.259727134915
