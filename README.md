@@ -273,11 +273,12 @@ Contoh query untuk melihat tren pertumbuhan kapasitas listrik (MW) dan kapasitas
 ---
 
 ## Key Questions & Findings
-KQ1 : Kapasitas IT naik dari 48 MW (akhir 2021) menjadi 15.122 MW (November 2026), dan kapasitas komputasi dari sekitar 0,01 juta menjadi 15,77 juta H100e.Tiga perusahaan terbesar adalah Google (3.179 MW), Meta (2.335 MW), dan Amazon (1.870 MW), yang bersama-sama menguasai 48,8% kapasitas. Ada 1.869 MW yang pemiliknya tidak diketahui (Unknown), jadi porsi perusahaan besar sebenarnya bisa lebih tinggi.\
-KQ2 : Konsumsi listrik naik dari 0,3 TWh (2021) menjadi 119,4 TWh (2026), dan emisinya dari 0,1 menjadi 52,2 MtCO2e per tahun. Lonjakan terbesar terjadi di dua tahun terakhir: emisi 2026 lebih dari dua kali lipat emisi 2025 (22,8 Mt). Catatan: dataset hanya melacak data center yang sekarang sudah besar, jadi angka tahun-tahun awal cenderung lebih kecil dari kondisi sebenarnya.\
-KQ3 : Berdasarkn PUE hampir semua data center ada di 1,2–1,4 (median 1,30), jadi efisiensi gedungnya mirip. Kapasitas komputasi per MW adalah 1.137 H100e, dengan biaya operasional sekitar 0,69 juta USD per MW per tahun dan emisi 2.326 tCO2e per MW. Yang paling berbeda justru emisinya: dari sekitar 170 tCO2e per MW di Islandia sampai 4.300 tCO2e per MW di Batam. Artinya, emisi lebih ditentukan oleh sumber listrik di lokasi daripada efisiensi gedung.\
-KQ4 : Tennessee 14,9%, Nebraska 13,0%, Indiana 8,3%, sedangkan secara nasional AS hanya 2,2%. Artinya, angka nasional menyembunyikan beban di tingkat lokal: di beberapa negara bagian, data center AI sudah memakai sekitar sepertujuh listrik yang dibangkitkan. Di level negara, porsi tertinggi ada di Malaysia (5,0%).\
-KQ5 : Ideal: Norwegia, Islandia (28), Finlandia (59), Portugal (128)
+**KQ1** : Kapasitas IT naik dari 48 MW (akhir 2021) menjadi 15.122 MW (November 2026), dan kapasitas komputasi dari sekitar 0,01 juta menjadi 15,77 juta H100e.Tiga perusahaan terbesar adalah Google (3.179 MW), Meta (2.335 MW), dan Amazon (1.870 MW), yang bersama-sama menguasai 48,8% kapasitas. Ada 1.869 MW yang pemiliknya tidak diketahui (Unknown), jadi porsi perusahaan besar sebenarnya bisa lebih tinggi.\
+**KQ2** : Konsumsi listrik naik dari 0,3 TWh (2021) menjadi 119,4 TWh (2026), dan emisinya dari 0,1 menjadi 52,2 MtCO2e per tahun. Lonjakan terbesar terjadi di dua tahun terakhir: emisi 2026 lebih dari dua kali lipat emisi 2025 (22,8 Mt). Catatan: dataset hanya melacak data center yang sekarang sudah besar, jadi angka tahun-tahun awal cenderung lebih kecil dari kondisi sebenarnya.\
+**KQ3** : Berdasarkn PUE hampir semua data center ada di 1,2–1,4 (median 1,30), jadi efisiensi gedungnya mirip. Kapasitas komputasi per MW adalah 1.137 H100e, dengan biaya operasional sekitar 0,69 juta USD per MW per tahun dan emisi 2.326 tCO2e per MW. Yang paling berbeda justru emisinya: dari sekitar 170 tCO2e per MW di Islandia sampai 4.300 tCO2e per MW di Batam. Artinya, emisi lebih ditentukan oleh sumber listrik di lokasi daripada efisiensi gedung.\
+**KQ4** : Tennessee 14,9%, Nebraska 13,0%, Indiana 8,3%, sedangkan secara nasional AS hanya 2,2%. Artinya, angka nasional menyembunyikan beban di tingkat lokal: di beberapa negara bagian, data center AI sudah memakai sekitar sepertujuh listrik yang dibangkitkan. Di level negara, porsi tertinggi ada di Malaysia (5,0%).\
+**KQ5** :
+Ideal: Norwegia, Islandia (28), Finlandia (59), Portugal (128)
 Tidak ideal: Australia, China, Malaysia, Indonesia (705).
 
 ---
